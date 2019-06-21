@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Ventana Modal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <!--Modal #1-->
+                <button class="btn btn-primary" data-toggle="modal" data-target="#ov-modal">Abrir Modal</button>
+                <div class="modal fade" id="ov-modal" tabindex="-1" role="dialog" aria-labelledby="ov-modal" aria-hidden="true">
+                    <div class="modal-dialog"><!--Iniciamos el contenido de nuestro modal-->
+                        <div class="modal-content">
+                            <div class="modal-header"><!--Encabezado del modal-->
+                                <h5 class="modal-title">Titulo de la ventana</h5>
+                                <button class="close" data-dismiss="modal" aria-label="Cerrar"><!--Boton para cerrar el modal-->
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body"><!--Cuerpo del modal-->
+                                <h2>Hola Mundo</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptate nisi exercitationem cupiditate tempore velit nesciunt ipsa optio porro voluptas ex expedita quibusdam illum possimus rem ducimus sunt sed, officia quas vel accusantium magnam. Et facere libero enim voluptates? Beatae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Modal #2-->
+                <button class="btn btn-success" data-toggle="modal" data-target="#ov-modal-grid">Abrir Modal</button>
+                <div class="modal fade" id="ov-modal-grid" tabindex="-1" role="dialog" aria-labelledby="ov-modal-grid"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <!--Iniciamos el contenido de nuestro modal-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <!--Encabezado del modal-->
+                                <h5 class="modal-title">Modal con Grid</h5>
+                                <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                                    <!--Boton para cerrar el modal-->
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, officiis quo? Reprehenderit eius non perspiciatis, dicta, quibusdam, maxime ducimus odit voluptas in dolores et ipsam doloribus quasi iure magnam. Ullam quisquam labore odit dolores unde aliquam dolor voluptatibus expedita doloremque!</p>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, atque. Quia vero repudiandae quaerat, necessitatibus dicta, nobis voluptates veritatis laudantium odio esse fugit non! Voluptatem fugiat consequuntur laborum facere non, molestiae quis, tenetur nulla, amet quia sed excepturi architecto ducimus maxime? Distinctio?</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-success">Aceptar</button>
+                                <button class="btn btn-light" data-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
