@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Sizing And Spacing</title>
+</head>
+
+<body>
+    <!-- Espaciado
+				p - Padding
+				m - Margin
+
+				t - Top
+				b - Bottom
+				l - Left
+				r - Right
+
+				y - Eje Y (Arriba y Abajo)
+				x - Eje X (Izquierda y Derecha)
+			-->
+
+    <!-- Anchos
+				.w-25 - Ancho del 25%
+				.w-50 - Ancho del 50%
+				.w-75 - Ancho del 75%
+				.w-100 - Ancho del 100%
+			-->
+
+    <!-- Altos
+				.h-25 - Alto del 25%
+				.h-50 - Alto del 50%
+				.h-75 - Alto del 75%
+				.h-100 - Alto del 100%
+			-->
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-6">
+                <div class="bg-success text-white p-2 my-2 w-25">25%</div>
+                <div class="bg-success text-white p-2 my-2 w-50">50%</div>
+                <div class="bg-success text-white p-2 my-2 w-75">75%</div>
+                <div class="bg-success text-white p-2 my-2 w-100">100%</div>
+            </div>
+            <div class="col-6">
+                <div class="bg-dark" style="height: 200px">
+                    <div class="bg-success text-white p-2 mx-2 h-25 d-inline-block">25%</div>
+                    <div class="bg-success text-white p-2 mx-2 h-50 d-inline-block">50%</div>
+                    <div class="bg-success text-white p-2 mx-2 h-75 d-inline-block">75%</div>
+                    <div class="bg-success text-white p-2 mx-2 h-100 d-inline-block">100%</div>
+                </div>               
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
