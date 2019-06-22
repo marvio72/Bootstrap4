@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+    <style>
+        body {
+            
+        }
+        .ov-nav a{
+            color: #ffffff;
+            padding: 15px;
+        }
+        .ov-nav a:hover, .ov-nav .active {
+            background: rgba(255, 255, 255, .1);
+        }
+        .seccion {
+            margin-bottom: 1000px;
+        }
+        .seccion .columna{
+            padding-top: 70px;
+        }
+
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#ov-nav">
+     <div class="container">
+         <div class="row mt-3">
+            <div class="col">
+                <div class="ov-nav" id="ov-nav">
+                    <ul class="ov-nav nav fixed-top navbard-inverse bg-primary">
+                        <li class="nav-item">
+                            <a href="#seccion1" class="nav-link">Seccion #1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#seccion2" class="nav-link">Seccion #2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#seccion3" class="nav-link">Seccion #3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+         <div class="row seccion" id="seccion1">
+            <div class="col-12 columna">
+                <h2>Seccion1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus illum alias obcaecati odio ipsam eius cum illo eveniet vitae porro, nesciunt, aliquam minima commodi qui totam. Debitis vel beatae ipsam eius voluptates sequi omnis, cumque itaque provident iure obcaecati? Error nesciunt tenetur numquam, at dignissimos voluptatibus molestiae? Consequatur, esse!</p>
+            </div>
+         </div>
+         <div class="row seccion" id="seccion2">
+             <div class="col-12 columna">
+                 <h2>Seccion2</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus illum alias
+                     obcaecati odio ipsam eius cum illo eveniet vitae porro, nesciunt, aliquam minima commodi qui totam.
+                     Debitis vel beatae ipsam eius voluptates sequi omnis, cumque itaque provident iure obcaecati? Error
+                     nesciunt tenetur numquam, at dignissimos voluptatibus molestiae? Consequatur, esse!</p>
+             </div>
+         </div>
+         <div class="row seccion" id="seccion3">
+             <div class="col-12 columna">
+                 <h2>Seccion3</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis necessitatibus illum alias
+                     obcaecati odio ipsam eius cum illo eveniet vitae porro, nesciunt, aliquam minima commodi qui totam.
+                     Debitis vel beatae ipsam eius voluptates sequi omnis, cumque itaque provident iure obcaecati? Error
+                     nesciunt tenetur numquam, at dignissimos voluptatibus molestiae? Consequatur, esse!</p>
+             </div>
+         </div>
+     </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
